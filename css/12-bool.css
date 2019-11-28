@@ -14,7 +14,7 @@
   border: 1px solid black;
 } */
 
-.debug [class*="col-"]{
+.debug [class*="col-"] {
   height: 100%;
   border: 1px solid black;
 }
@@ -50,12 +50,14 @@
   transform: translate(-50%, -50%);
 }
 
-.nested{
-  /* height: 300px; */
+.container .nested{
+  height: 280px;
   border: 1px solid white;
-  margin: 15px;
+  margin: 10px;
   background-color: #F07F80;
 }
+
+
 
 /* Colonne */
 .col-1{
