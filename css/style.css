@@ -1,0 +1,16 @@
+.container [class*="col-"] {
+  text-align: center;
+}
+
+.container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.container .nested{
+    height: 100%;
+    border: 1px solid white;
+    background-color: #F07F80;
+  }
