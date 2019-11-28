@@ -43,7 +43,11 @@
   position: relative;
 }
 
-/* .container p {
+.container [class*="col-"] {
+  text-align: center;
+}
+
+.container p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,9 +58,7 @@
   height: 100%;
   border: 1px solid white;
   background-color: #F07F80;
-} */
-
-
+}
 
 /* Colonne */
 .col-1{
@@ -112,6 +114,7 @@
 
 
 /* Col-offset */
-.col-offset-1{
+
+.col-offset-1 {
   margin-left: calc( (100% / 12) * 1);
 }
