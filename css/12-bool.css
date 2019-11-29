@@ -1,6 +1,6 @@
 /* Regole Debug */
 .debug{
-  background-color: white;
+  /* background-color: white; */
 }
 
 .debug .container{
@@ -11,13 +11,12 @@
 
 .debug [class*="col-"] {
   height: 100%;
-  padding: 5px;
   border: 1px solid black;
 }
 
-.debug .nested [class*="col-"]{
+/* .debug .nested [class*="col-"]{
   border: 1px solid white;
-}
+} */
 
 /* Inizio Framework */
 *{
@@ -41,23 +40,6 @@
 [class*="col-"]{
   float: left;
   position: relative;
-}
-
-.container [class*="col-"] {
-  text-align: center;
-}
-
-.container p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container .nested{
-  height: 100%;
-  border: 1px solid white;
-  background-color: #F07F80;
 }
 
 /* Colonne */
@@ -109,12 +91,53 @@
   width: calc( (100% / 12) * 12);
 }
 
-.container [class*="col-"] {
-  text-align: center;
-
 
 /* Col-offset */
 
 .col-offset-1 {
   margin-left: calc( (100% / 12) * 1);
+}
+
+.col-offset-2 {
+  margin-left: calc( (100% / 12) * 2);
+}
+
+.col-offset-3 {
+  margin-left: calc( (100% / 12) * 3);
+}
+
+.col-offset-4 {
+  margin-left: calc( (100% / 12) * 4);
+}
+
+.col-offset-5 {
+  margin-left: calc( (100% / 12) * 5);
+}
+
+.col-offset-6 {
+  margin-left: calc( (100% / 12) * 6);
+}
+
+.col-offset-7 {
+  margin-left: calc( (100% / 12) * 7);
+}
+
+.col-offset-8 {
+  margin-left: calc( (100% / 12) * 8);
+}
+
+.col-offset-9 {
+  margin-left: calc( (100% / 12) * 9);
+}
+
+.col-offset-10 {
+  margin-left: calc( (100% / 12) * 10);
+}
+
+.col-offset-11 {
+  margin-left: calc( (100% / 12) * 11);
+}
+
+.col-offset-12 {
+  margin-left: calc( (100% / 12) * 12);
 }
